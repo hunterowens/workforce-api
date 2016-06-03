@@ -2,6 +2,7 @@ import sys
 import logging
 import db_config
 import psycopg2
+
 #rds settings
 db_host  = db_config.db_host
 name = db_config.db_username
@@ -25,5 +26,6 @@ def handler(event, context):
     This function fetches content from mysql RDS instance
     """
     pass
+
 
 
